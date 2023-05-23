@@ -1,0 +1,43 @@
+.main{
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    height: 100vh;
+}
+.site_bar{
+    background-color: #272727;
+    height: 100%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+.text_edit{
+    height: 100%;
+}
+.main_search{
+    display:flex;
+    gap: 10px;
+}
+.btn{
+    padding-inline: 15px;
+}
+.carts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    left: 210px;
+}
+.btns div{
+    background-color: #1F1F1F;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    width: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
